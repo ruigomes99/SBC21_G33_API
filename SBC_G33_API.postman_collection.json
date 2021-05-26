@@ -1,0 +1,284 @@
+{
+	"info": {
+		"_postman_id": "b9664857-2b8f-47a0-8aef-cb292a692c8e",
+		"name": "SBC_G33_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tarefa A1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/tarefa-a1/query?tipo=entregar&preco=preco_0_7&idade=idade_18_29&estado_espirito=apressado&classificacao=classificacao_>47&categoria=carnes&bebida=bebida_nao_incluida",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tarefa-a1",
+						"query"
+					],
+					"query": [
+						{
+							"key": "tipo",
+							"value": "entregar"
+						},
+						{
+							"key": "preco",
+							"value": "preco_0_7"
+						},
+						{
+							"key": "idade",
+							"value": "idade_18_29"
+						},
+						{
+							"key": "estado_espirito",
+							"value": "apressado"
+						},
+						{
+							"key": "classificacao",
+							"value": "classificacao_>47"
+						},
+						{
+							"key": "categoria",
+							"value": "carnes"
+						},
+						{
+							"key": "bebida",
+							"value": "bebida_nao_incluida"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tarefa A2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/tarefa-a2/query?sexo=masculino&categoria=hamburguer&tempo=tempo_medio&idade=0-17&preco=preco_baixo&classificacao=classificacao_boa&dieta=nao_saudavel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tarefa-a2",
+						"query"
+					],
+					"query": [
+						{
+							"key": "sexo",
+							"value": "masculino"
+						},
+						{
+							"key": "categoria",
+							"value": "hamburguer"
+						},
+						{
+							"key": "tempo",
+							"value": "tempo_medio"
+						},
+						{
+							"key": "idade",
+							"value": "0-17"
+						},
+						{
+							"key": "preco",
+							"value": "preco_baixo"
+						},
+						{
+							"key": "classificacao",
+							"value": "classificacao_boa"
+						},
+						{
+							"key": "dieta",
+							"value": "nao_saudavel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tarefa B1 Obj1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/tarefa-b1-obj1/query?cliente=cliente4&metodo=depthfirst",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tarefa-b1-obj1",
+						"query"
+					],
+					"query": [
+						{
+							"key": "cliente",
+							"value": "cliente4"
+						},
+						{
+							"key": "metodo",
+							"value": "depthfirst"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tarefa B1 Obj2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/tarefa-b1-obj2/query?clienteA=cliente1&clienteB=cliente3&metodo=depthfirst",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tarefa-b1-obj2",
+						"query"
+					],
+					"query": [
+						{
+							"key": "clienteA",
+							"value": "cliente1"
+						},
+						{
+							"key": "clienteB",
+							"value": "cliente3"
+						},
+						{
+							"key": "metodo",
+							"value": "depthfirst"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Restart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/restart",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"restart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tarefa B2 Obj2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/tarefa-b2-obj2/query?clienteA=cliente3&clienteB=cliente4&metodo=lucro",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tarefa-b2-obj2",
+						"query"
+					],
+					"query": [
+						{
+							"key": "clienteA",
+							"value": "cliente3"
+						},
+						{
+							"key": "clienteB",
+							"value": "cliente4"
+						},
+						{
+							"key": "metodo",
+							"value": "lucro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tarefa B2 Obj1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/tarefa-b2-obj1/query?clienteA=cliente3&metodo=lucro",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tarefa-b2-obj1",
+						"query"
+					],
+					"query": [
+						{
+							"key": "clienteA",
+							"value": "cliente3"
+						},
+						{
+							"key": "metodo",
+							"value": "lucro"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
